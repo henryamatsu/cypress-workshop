@@ -16,7 +16,7 @@ export default function Button(props: { visibilityType: VisibilityType }) {
       {visibility !== VisibilityType.hidden && (
         <button
           onClick={buttonMethod}
-          disabled={visibility === VisibilityType.disabled ? true : false}
+          // disabled={visibility === VisibilityType.disabled ? true : false}
         >
           Click me!
         </button>
